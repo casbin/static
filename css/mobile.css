@@ -164,3 +164,7 @@ a.tab_current:hover {
 .member-activity-bar {
     width: 100%
 }
+
+img {
+    max-width: 100%;
+}
