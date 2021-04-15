@@ -47,3 +47,7 @@ h1 {
 .thank_area:hover > a {
     visibility: visible
 }
+
+img {
+    max-width: 100%;
+}
