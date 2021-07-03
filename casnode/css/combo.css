@@ -3,7 +3,7 @@
     --box-background-alt-color: #f9f9f9;
     --box-background-hover-color: #fafafa;
     --box-foreground-color: #000;
-    --box-border-color: #e2e2e2;
+    --box-border-color: #f5f6f9;
     --box-border-focus-color: rgba(128, 128, 160, 0.6);
     --box-border-radius: 3px;
     --box-font-size: 14px;
@@ -78,7 +78,6 @@ a:active, a:link, a:visited {
 
 a:hover {
     color: #4d5256;
-    text-decoration: underline
 }
 
 a.topic-link:active, a.topic-link:link {
@@ -531,7 +530,7 @@ ol {
 
 #Wrapper {
     text-align: center;
-    background-color: #e2e2e2;
+    background-color: #f5f6f9;
     background-image: url(../img/shadow_light.png);
     background-repeat: repeat-x
 }
@@ -780,6 +779,10 @@ ol {
     background-image: url(../img/dock_shadow.png);
     background-repeat: repeat-x;
     padding: 0
+}
+
+.change-color-on-hover:hover {
+    background-color: #f5f6f7;
 }
 
 .cell {
@@ -1482,32 +1485,30 @@ a.thank:hover {
     height: 320px
 }
 
-.super.button {
-    background-image: url(../img/bg_blended_light.png);
-    padding: 4px 8px;
-    border: 1px solid rgba(80, 80, 90, .2);
-    border-bottom-color: rgba(80, 80, 90, .35);
-    border-radius: 3px;
+.super-button {
+    background-color: #e0e0e0;
+    padding: 8px 32px;
+    border-radius: 6px;
     font-size: 14px;
     outline: 0
 }
 
-.normal.button {
-    background-color: #fff;
+.normal-button {
+    background-color: #eee;
     color: #333;
-    text-shadow: 0 1px 0 #fff;
-    text-decoration: none;
     font-weight: 700;
-    box-shadow: 0 1px 0 rgba(66, 66, 77, .1)
+    border-radius: 6px;
+    padding: 8px 32px;
 }
 
-.normal.button:disabled {
+.normal-button:hover {
+    background-color: #e0e0e0;
+}
+
+.normal-button:disabled {
     background-color: #fff;
     color: #ccc;
-    text-shadow: 0 1px 0 #fff;
-    text-decoration: none;
     font-weight: 700;
-    box-shadow: 0 1px 0 rgba(66, 66, 77, .1)
 }
 
 .normal.button:hover:enabled {
