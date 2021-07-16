@@ -1,0 +1,170 @@
+body {
+    -webkit-text-size-adjust: none
+}
+
+h1 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 5px 0 10px;
+    padding: 0
+}
+
+#Wrapper .content {
+    min-width: 300px;
+    width: auto;
+    padding: 5px
+}
+
+#Top {
+    padding: 0 5px
+}
+
+#Top .content {
+    min-width: 310px;
+    width: auto
+}
+
+#Bottom .content {
+    min-width: 310px;
+    width: auto
+}
+
+.header {
+    padding: 5px
+}
+
+.cell {
+    padding: 5px;
+    word-break: break-word
+}
+
+.cell_ops {
+    padding: 6px
+}
+
+.subtle {
+    padding: 5px
+}
+
+.inner {
+    padding: 5px;
+    word-break: break-word
+}
+
+.caution {
+    padding: 5px
+}
+
+.sl {
+    width: 210px;
+    font-size: 16px
+}
+
+.ml {
+    width: 210px
+}
+
+.mll {
+    width: 100%;
+    height: initial;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 16px
+}
+
+.sls {
+    font-size: 16px
+}
+
+.mle {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 16px
+}
+
+.tall {
+    height: 220px
+}
+
+.imgly {
+    max-width: 280px
+}
+
+a.tab:link, a.tab:visited, a.tab:active {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 5px 6px;
+    margin-right: 5px;
+    border-radius: 3px;
+    color: #555
+}
+
+a.tab:hover {
+    background-color: #f5f5f5;
+    color: #000;
+    text-decoration: none
+}
+
+a.tab_current:link, a.tab_current:visited, a.tab_current:active {
+    display: inline-block;
+    font-size: 13px;
+    line-height: 16px;
+    padding: 5px 6px;
+    margin-right: 5px;
+    border-radius: 3px;
+    background-color: #334;
+    color: #fff
+}
+
+a.tab_current:hover {
+    background-color: #445;
+    color: #fff;
+    text-decoration: none
+}
+
+.imgly {
+    max-width: 100%
+}
+
+.markdown_body > p > img {
+    max-width: 100%
+}
+
+.editor_syntax_label_left {
+    display: none
+}
+
+.editor_syntax_label_right {
+    display: none
+}
+
+.select2-search__field {
+    font-size: 16px
+}
+
+.status_editor {
+    font-size: 16px
+}
+
+.settings.privacy .privacy-settings-form > div > .settings-explanation {
+    grid-area: 2/1/3/3
+}
+
+.settings.privacy .privacy-settings-form > div > span {
+    justify-self: start
+}
+
+.box-transparent {
+    margin-bottom: 5px
+}
+
+.member-activity-bar {
+    width: 100%
+}
+
+img {
+    max-width: 100%;
+}
